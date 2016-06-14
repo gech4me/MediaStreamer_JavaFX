@@ -1,0 +1,381 @@
+.root {
+    -fx-base: #E0E0E0;
+    -fx-background-color: black;
+}
+
+
+/* Default Pane */
+#menuSVG {
+    -fx-fill: #212121;
+}
+#topPane {
+    -fx-background-color: #E0E0E0;
+}
+
+#welcomeAnchorPane {
+    -fx-background-color: #FAFAFA;
+}
+#leftPane {
+    -fx-background-color: #E0E0E0;
+}
+#bottomTilePane {
+    -fx-background-color:  #E0E0E0;
+}
+#titleText {
+    -fx-text-fill: #212121;
+}
+#welcomeText {
+    -fx-fill: #212121;
+}
+#searchSVG {
+    -fx-fill: black;
+}
+
+#moviesSVG {
+    -fx-fill: #212121;
+}
+#tvSVG {
+    -fx-fill: #212121;
+}
+#radiosSVG {
+    -fx-fill: #212121;
+}
+#videosSVG {
+    -fx-fill: #212121;
+}
+
+#moviesText {
+    -fx-text-fill: #212121;
+}
+#tvText {
+    -fx-text-fill: #212121;
+}
+#radiosText {
+    -fx-text-fill: #212121;
+}
+#videosText {
+    -fx-text-fill: #212121;
+}
+#settingText {
+    -fx-text-fill: #212121;
+}
+#accountSVG {
+    -fx-fill: #212121;
+}
+#settingSVG {
+    -fx-fill: #212121;
+}
+#aboutSVG {
+    -fx-fill: #212121;
+}
+#helpSVG {
+    -fx-fill: #212121;
+}
+
+/* Stage Control */
+#closeSVG {
+    -fx-fill: #212121;
+}
+#maximizeSVG {
+    -fx-fill: #212121;
+}
+#minimizeSVG {
+    -fx-fill: #212121;
+}
+
+#closePane:hover {
+    -fx-background-color: #d50000;
+    -fx-cursor: hand;
+}
+#closePane:pressed {
+    -fx-scale-x: 0.96px;
+    -fx-scale-y: 0.96px;
+}
+
+#maximizePane:hover {
+    -fx-background-color:   #F5F5F5;
+    -fx-cursor: hand;
+}
+#maximizePane:pressed {
+    -fx-scale-x: 0.96px;
+    -fx-scale-y: 0.96px;
+}
+
+#minimizePane:hover {
+    -fx-background-color:    #F5F5F5;
+    -fx-cursor: hand;
+}
+#minimizePane:pressed {
+    -fx-scale-x: 0.96px;
+    -fx-scale-y: 0.96px;
+}
+
+#backSVG {
+    -fx-fill: #212121;
+}
+#backPane {
+    -fx-background-color: #E0E0E0;
+}
+#backPane:hover {
+    -fx-background-color:    #F5F5F5;
+}
+#backPane:pressed {
+    -fx-scale-x: 0.96px;
+    -fx-scale-y: 0.96px;
+}
+
+/* Left side Pane */
+#menuPane:hover {
+    -fx-background-color: #F5F5F5;
+}
+#menuPane:pressed {
+    -fx-scale-x: 0.96px;
+    -fx-scale-y: 0.96px;
+}
+
+#searchPane:hover {
+    -fx-background-color: #F5F5F5;
+}
+
+#moviesPane:hover {
+    -fx-background-color: #F5F5F5;
+    -fx-border-width: 0 0 0 5;
+    -fx-border-color: #3f51b5;
+}
+#moviesPane:pressed {
+    -fx-scale-x: 0.97px;
+    -fx-scale-y: 0.97px;
+}
+
+#tvPane:hover {
+    -fx-background-color: #F5F5F5;
+    -fx-border-width: 0 0 0 5;
+    -fx-border-color: #3f51b5;
+}
+#tvPane:pressed {
+    -fx-scale-x: 0.97px;
+    -fx-scale-y: 0.97px;
+}
+
+#videosPane:hover {
+    -fx-background-color: #F5F5F5;
+    -fx-border-width: 0 0 0 5;
+    -fx-border-color: #3f51b5;
+}
+#videosPane:pressed {
+    -fx-scale-x: 0.97px;
+    -fx-scale-y: 0.97px;
+
+}
+
+#radiosPane:hover {
+    -fx-background-color: #F5F5F5;
+    -fx-border-width: 0 0 0 5;
+    -fx-border-color: #3f51b5;
+}
+#radiosPane:pressed {
+    -fx-scale-x: 0.97px;
+    -fx-scale-y: 0.97px;
+}
+
+#helpPane:hover {
+    -fx-background-color: #F5F5F5;
+}
+#helpPane:pressed {
+    -fx-scale-x: 0.97px;
+    -fx-scale-y: 0.97px;
+}
+
+#aboutPane:hover {
+    -fx-background-color: #F5F5F5;
+}
+#aboutPane:pressed {
+    -fx-scale-x: 0.97px;
+    -fx-scale-y: 0.97px;
+}
+
+#accountPane:hover {
+    -fx-background-color: #F5F5F5;
+}
+#accountPane:pressed {
+    -fx-scale-x: 0.97px;
+    -fx-scale-y: 0.97px;
+}
+
+#settingPane:hover {
+    -fx-background-color: #F5F5F5;
+}
+#settingPane:pressed {
+    -fx-scale-x: 0.97px;
+    -fx-scale-y: 0.97px;
+}
+
+/* Center Pane */
+#channelTitle {
+    -fx-text-fill:  #212121;
+}
+#channelTitlePane {
+    -fx-background-color: #E0E0E0;
+    -fx-padding: 10px;
+}
+#channelContentPane {
+    -fx-background-color: #FAFAFA;
+    -fx-padding: 10px;
+}
+
+/* Content Pane */
+#contentTitle {
+    -fx-text-fill:  #212121;
+}
+#contentBox {
+    -fx-background-color:  #E0E0E0;
+    -fx-opacity: 0.75;
+}
+#contentBox:hover {
+    -fx-background-color: #F5F5F5;
+}
+#contentBox:pressed {
+    -fx-scale-x: 0.96px;
+    -fx-scale-y: 0.96px;
+}
+
+/* Player Pane */
+#playPane:hover {
+    -fx-background-color: #F5F5F5;
+}
+#playPane:pressed {
+    -fx-scale-x: 0.96px;
+    -fx-scale-y: 0.96px;
+}
+
+#fastRewindPane:hover {
+    -fx-background-color: #F5F5F5;
+}
+#fastRewindPane:pressed {
+    -fx-scale-x: 0.96px;
+    -fx-scale-y: 0.96px;
+}
+
+#fastForwardPane:hover {
+    -fx-background-color: #F5F5F5;
+}
+#fastForwardPane:pressed {
+    -fx-scale-x: 0.96px;
+    -fx-scale-y: 0.96px;
+}
+
+#stopPane:hover {
+    -fx-background-color: #F5F5F5;
+}
+#stopPane:pressed {
+    -fx-scale-x: 0.96px;
+    -fx-scale-y: 0.96px;
+}
+
+#repeatPane:hover {
+    -fx-background-color: #F5F5F5;
+}
+#repeatPane:pressed {
+    -fx-scale-x: 0.96px;
+    -fx-scale-y: 0.96px;
+}
+
+#fullscreenPane:hover {
+    -fx-background-color: #F5F5F5;
+}
+#fullscreenPane:pressed {
+    -fx-scale-x: 0.96px;
+    -fx-scale-y: 0.96px;
+}
+
+#playSVG {
+    -fx-fill: #212121;
+}
+#stopSVG {
+    -fx-fill: #212121;
+}
+#fastForwardSVG {
+    -fx-fill: #212121;
+}
+#fastRewindSVG {
+    -fx-fill: #212121;
+}
+#fullscreenSVG {
+    -fx-fill: #212121;
+}
+#repeatSVG {
+    -fx-fill: #212121;
+}
+#volumeSVG {
+    -fx-fill: #212121;
+}
+
+#volumeStatus {
+    -fx-text-fill: whitesmoke;
+    -fx-font-size: 25px;
+    -fx-font-style: italic;
+}
+
+#mediaControlBoard {
+    -fx-background-color: #E0E0E0;
+    -fx-opacity: 0.75;
+}
+
+#settingTitlePane {
+    -fx-background-color:  #E0E0E0;
+}
+#settingBorderPane {
+    -fx-background-color: #F5F5F5;
+}
+
+#amharicLanguage {
+    -fx-text-fill: black;
+}
+#englishLanguage {
+    -fx-text-fill: black;
+}
+#afaanOromooLanguage {
+    -fx-text-fill: black;
+}
+.combo-box {
+    -fx-base: #999;
+}
+
+#addSVG {
+    -fx-fill: black;
+}
+#addPane {
+    -fx-background-color: #ef6c00;
+}
+
+#addPane:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-background-color: #ffa726;
+}
+#addPane:pressed {
+    -fx-scale-x: 0.85;
+    -fx-scale-y: 0.85;
+    -fx-background-color:#ffcc80;
+}
+
+#addNewChannelTitlePane {
+    -fx-background-color: #E0E0E0;
+}
+#addContentBorderPane {
+    -fx-background-color: #F5F5F5;
+}
+
+
+#homepagePane {
+    -fx-background-color:  #eeeeee;
+}
+
+#homePane:hover {
+    -fx-background-color:   #F5F5F5;
+    -fx-cursor: hand;
+}
+#homePane:pressed {
+    -fx-scale-x: 0.96px;
+    -fx-scale-y: 0.96px;
+}
