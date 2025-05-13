@@ -1,30 +1,30 @@
-# 🎬 MediaStreamer - JavaFX Desktop Media Player
+# MediaStreamer - JavaFX Desktop Media Player
 
-**MediaStreamer** is a cross-platform, open-source desktop media player built with **JavaFX**. It enables users to stream videos via URL, play local audio/video files, and enjoy a customizable interface with multilingual support and theme options.
+MediaStreamer is a lightweight, open-source desktop media player built with **JavaFX**. It allows users to **stream online videos via URL**, play **local audio and video files**, and enjoy a personalized experience with **multi-language support** and **light/dark themes**.
 
 ![MediaStreamer Screenshot](https://github.com/gech4me/MediaStreamer_JavaFX/blob/master/Screenshot%20(20).png)
 
 ---
 
-## 🚀 Features
+## 🎯 Features
 
-- 🎥 **Stream online videos** using a URL
-- 🎧 **Play local audio and video** files
-- 🌍 **Multilingual support** (English, French, Spanish, Amharic)
-- 🌗 **Dark & Light themes** toggle
-- 💾 **Remembers media URLs** for replay history
-- 🖥️ **Built with JavaFX** for smooth and modern UI
-- 🔓 Open source and extensible
+- ✅ **Stream videos online** via URL input  
+- ✅ **Play local media** (audio and video) from your device  
+- ✅ **Multi-language UI support** (4 languages)  
+- ✅ **Dark Mode and Light Mode** toggle for better UX  
+- ✅ **Media history tracking** (save previously played URLs)  
+- ✅ **User-friendly and responsive UI** built with JavaFX  
+- ✅ Open source and fully customizable  
 
 ---
 
-## 🛠️ Getting Started
+## 🚀 Getting Started
 
-### Requirements
-- Java 8+ (JavaFX bundled with Java 8)
-- JavaFX-compatible IDE (e.g., IntelliJ IDEA, Eclipse)
+### 🔧 Requirements
+- Java 8 or later (JavaFX bundled with Java 8)
+- IDE (e.g., IntelliJ IDEA, Eclipse) or JavaFX-compatible build tools
 
-### How to Run
+### ▶️ Run the App
 1. Clone the repository:
    ```bash
    git clone https://github.com/gech4me/MediaStreamer_JavaFX.git
